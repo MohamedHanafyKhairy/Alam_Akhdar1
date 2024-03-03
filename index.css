@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: grid;
+}
+
+.Con {
+    background-image: url(Main_Image.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    /* جعل حجم الخلفية يأخذ حجم العنصر نفسه */
+}
+
+header {
+    height: 180px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo_img {
+    width: 100px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 0px rgba(8, 9, 1, 0.5);
+    /* ظل بلون أسود وشفافية 50% */
+}
+
+
+.Logo {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.Logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none
+}
+
+#Projects_Li {
+    color: White;
+}
+
+.Main_Words {
+    display: grid;
+
+    width: 700px;
+    height: 500px;
+    margin-left: 110px;
+    margin-top: 120px;
+}
+
+.Main_Words h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 200;
+    color: gray;
+}
+
+.Main_Words span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85px;
+    margin-top: -90px;
+}
+
+.Main_Words p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: -30px;
+    color: gray;
+}
+
+#Project_Btn {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: rgb(10, 125, 10);
+    border-radius: 25px;
+    font-size: 25px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+#Project_Btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(10, 125, 10);
+    border-color: rgb(10, 125, 10);
+    transform: scale(1.1)
+}
+
+#Involed_Btn {
+    width: 250px;
+    height: 50px;
+    color: gray;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 25px;
+    border: 2px solid gray;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+
+#Involed_Btn:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border-color: gray;
+    transform: scale(1.1)
+}
+
+.Buttons {
+    width: 550px;
+    height: 80px;
+    margin-left: 20px;
+}
